@@ -1,0 +1,74 @@
+#topName{
+    font-size: 30px;
+    
+    color: #fff;
+    text-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+}
+.jumbotron {
+    background-image: url("Yoshi.png");
+    background-size: 250px;
+    background-color:darkslategrey;
+    height: 250px;
+}
+#topText{
+    font-size: 20px;
+    
+    color: #fff;
+    text-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+}
+.dookie{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+
+}
+.card-body{
+    background-color: darkslategrey;
+    color:whitesmoke
+}
+.nav-brand{
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1000px) {
+    .dookie{
+      display:flex;
+      flex-direction: column;
+      margin: auto;
+    }
+  }
+  html{
+      background-color: black;
+  }
+
+body{
+    width: auto;
+    background-size: auto;
+}
+
+#disappear{
+    display: flex;
+    flex-direction: column;
+}
+ .carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    min-height:200px;
+    max-height: 700px;
+}
+
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+  .carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    min-height:200px;
+    max-height: 300px;
+}
+}
